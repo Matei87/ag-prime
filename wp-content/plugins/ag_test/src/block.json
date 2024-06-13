@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/ag-test",
+  "version": "0.1.0",
+  "title": "Ag Test",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Example block scaffolded with Create Block tool.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "AG Test Component"
+    },
+    "content": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet, consec tetur adipis cing elit. Ut elit tellus, luctus nullam corper mattis, pulvinar dapibus"
+    },
+    "imageUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "isChecked": {
+      "type": "boolean",
+      "default": true
+    },
+    "order": {
+      "type": "boolean",
+      "default": true
+    },
+    "backgroundColor": {
+      "type": "string",
+      "default": "#fff"
+    }
+  },
+  "textdomain": "ag_test",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css"
+}

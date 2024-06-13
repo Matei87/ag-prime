@@ -1,0 +1,18 @@
+#data {
+  padding: 2rem;
+}
+
+#main-block {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+#main-block > div {
+  width: 50%;
+}
+
+#main-block img {
+  width: 100%;
+  object-fit: cover;
+}
